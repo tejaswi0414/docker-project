@@ -1,0 +1,14 @@
+version: '3'
+services:
+  java:
+    image: nitjava:v1
+    ports:
+      - "81:80"
+  datascience:
+    image: nitdatascience:v1
+    ports:
+      - "82:80"
+  devops:
+    image: nitdevops:v1
+    ports:
+      - "83:80"
